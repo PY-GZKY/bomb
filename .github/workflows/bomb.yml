@@ -19,5 +19,5 @@ jobs:
           git config --local user.name "PY-GZKY"
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git pull --rebase
-          git commit --allow-empty -m booooooooob !!!!
+          git commit --allow-empty -m "booooooooob !!!!"
           git push
